@@ -1,0 +1,98 @@
+.flight-details-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-color:rgb(229, 231, 235);
+    background-color:rgb(229, 231, 235) ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:360px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.ticket-brief{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    height: 30px;
+    padding: 10px;
+    background-color:rgb(229, 231, 235) ;
+    box-shadow: rgba(0,0,0,0.15);
+}
+.tedit{
+    font-family:Murecho;
+    font-weight: 500;
+}
+.tedit2{
+    font-family: Murecho;
+    font-family: 100;
+}
+.time{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.destination{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.date{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.logo{
+    width:200px
+}
+.minilogo{
+    margin-top: 25px;
+    width: 200px;
+}
+.ticket-price{
+    height: 30px;
+    padding: 15px;
+    background-color:rgb(229, 231, 235) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0,0,0,0.15);
+}
+.id{
+    padding-top: 5px;
+}
+.tedit3{
+    font-size: x-large;
+    font-family: Murecho;
+    font-weight: 700;
+}
+.select-button{
+    width: 60px;
+    height: 30px;
+    text-decoration-color: aliceblue;
+    background-color: rgb(64, 74, 211);
+    border-radius: 15px;
+    border: none;
+}
